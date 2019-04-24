@@ -1,0 +1,281 @@
+.inner {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+body {
+  font-family: Raleway;
+}
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.header-inner {
+  position: relative;
+}
+
+.bolt-icon {
+  color: #696969;
+}
+
+.contact-btn {
+  background-color: #74cfae;
+  display: inline-block;
+  font-size: 12px;
+  padding: 14px 12px;
+  position: absolute;
+  right: 0;
+}
+
+.btn-link {
+  color: white;
+  text-decoration: none;
+  transition-duration: .3s;
+}
+
+.btn-link:hover {
+  color: #333;
+}
+
+.theme {
+  background-color: #f2f2f2;
+  padding: 328px 0 250px 0;
+  text-align: center;
+}
+
+.main-title {
+  color: #74cfae;
+  font-family: Lato;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px
+}
+
+.sub-title {
+  color: #c0c0c0;
+  font-size: 30px;
+}
+
+.cando {
+  background-color: #74cfae;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.cando-iphone {
+  display: inline-block;
+  width: 340px;
+}
+
+.cando-contents {
+  color: #fff;
+  display: inline-block;
+  padding-top: 50px;
+  max-width: 750px;
+  vertical-align: top;
+}
+
+.cando-title {
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.cando-text {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.work {
+  background-color: #f2f2f2;
+  color: #4e4e4e;
+  padding: 60px 0 70px 0;
+  text-align: center;
+}
+
+.work_title {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.images {
+  font-size: 0;
+  margin-bottom: 10px;
+}
+
+.img {
+  display: inline-block;
+  margin-right: 100px;
+  margin-bottom: 80px;
+  opacity: 0.7;
+  transition-duration: .3s;
+}
+
+@media screen and (max-width: 699px) {
+  .img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .img:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .img:nth-child(2n) {
+    margin-right: 100px;
+  }
+  .img:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+.img:hover {
+  opacity: 1;
+}
+
+.work_contents {
+  font-size: 0;
+}
+
+.work_text {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  max-width: 380px;
+  padding: 0 90px;
+}
+
+.work-email_btn {
+  background-color: #74cfae;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  padding: 14px 20px;
+  vertical-align: top;
+}
+
+.skills {
+  padding-top: 70px;
+  background-color: #4e4e4e;
+  text-align: center;
+}
+
+.skills_title {
+  color: #f2f2f2;
+  font-size: 24px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.skills_main {
+  display: inline-block;
+  font-size: 0;
+  margin-left: -90px;
+  margin-right: -90px;
+}
+
+.skills_content {
+  display: inline-block;
+  width: 290px;
+  margin-bottom: 100px;
+}
+
+
+.skills_content:last-child {
+  margin-right: 0;
+}
+
+
+.skills_circle {
+  margin: 0 auto;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #74cfae;
+  background-image: linear-gradient(to left, transparent 50%, #4e4e4e 0);
+  border: .3px solid #0000CD;
+  position: relative;
+}
+
+.skills_circle::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background-color: inherit;
+  transform-origin: left;
+}
+
+.ja_circle::before {
+  transform: rotate(75deg);
+}
+
+.skills_circle::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #4e4e4e;
+  border-radius: 50%;
+  border: .3px solid #0000CD;
+  top: 50%;
+  left: 50%;
+  margin: -40px 0 0 -40px;
+}
+
+.bo_circle::before {
+  transform: rotate(140deg);
+}
+
+.wo_circle::before {
+  transform: rotate(40deg);
+}
+.skills_text {
+  color: #f2f2f2;
+  font-size: 16px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.sns {
+  background-color: #f2f2f2;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.sns_btn {
+  display: inline-block;
+  width: 185px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  transition-duration: .3s;
+
+}
+
+.sns_btn:hover {
+  background-color: #fff;
+}
+
+.sns_icon {
+  color: #74cfae;
+  vertical-align: middle;
+}
+
+.footer {
+  background-color: #74cfae;
+  color: #fff;
+  font-family: Lato;
+  text-align: right;
+  padding: 20px 0 25px 0;
+  font-size: 20px;
+}

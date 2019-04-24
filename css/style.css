@@ -12,6 +12,7 @@ body {
   position: fixed;
   width: 100%;
   padding: 15px 0;
+  z-index: 100;
 }
 
 .header-inner {
@@ -68,7 +69,7 @@ body {
 
 .cando-iphone {
   display: inline-block;
-  width: 340px;
+  margin-left: 50px;
 }
 
 .cando-contents {
@@ -76,6 +77,7 @@ body {
   display: inline-block;
   padding-top: 50px;
   max-width: 750px;
+  margin-left: 50px;
   vertical-align: top;
 }
 
@@ -103,7 +105,7 @@ body {
 
 .images {
   font-size: 0;
-  margin-bottom: 10px;
+  margin-bottom: 90px;
 }
 
 .img {
@@ -114,7 +116,15 @@ body {
   transition-duration: .3s;
 }
 
-@media screen and (max-width: 699px) {
+.img:nth-child(3n) {
+  margin-right: 0;
+}
+
+.img:nth-child(n + 4) {
+  margin-bottom: 0;
+}
+
+/* @media screen and (max-width: 699px) {
   .img {
     display: block;
     margin: 0 auto;
@@ -135,7 +145,7 @@ body {
   .img:nth-child(3n) {
     margin-right: 0;
   }
-}
+} */
 
 .img:hover {
   opacity: 1;
@@ -150,7 +160,6 @@ body {
   font-size: 12px;
   line-height: 16px;
   max-width: 380px;
-  padding: 0 90px;
 }
 
 .work-email_btn {
@@ -159,6 +168,7 @@ body {
   display: inline-block;
   font-size: 12px;
   padding: 14px 20px;
+  margin-left: 90px;
   vertical-align: top;
 }
 
@@ -178,19 +188,24 @@ body {
 .skills_main {
   display: inline-block;
   font-size: 0;
-  margin-left: -90px;
-  margin-right: -90px;
 }
 
 .skills_content {
   display: inline-block;
-  width: 290px;
+  margin-left: 180px;
+}
+
+.skills_content:first-child {
+  margin-left: 0;
+}
+
+.circle_img {
+  margin-bottom: 20px;
 }
 
 .skills_text {
   color: #f2f2f2;
   font-size: 16px;
-  padding-top: 20px;
   text-align: center;
 }
 

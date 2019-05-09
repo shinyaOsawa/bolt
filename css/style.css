@@ -2,7 +2,7 @@ body {
   font-family: Raleway;
 }
 
- /* １２００
+ /* １２００以上
 
  　　　１２００
 
@@ -10,7 +10,6 @@ body {
 
 @media screen and (min-width: 1200px) {
   .inner {
-    margin: 0 auto;
     max-width: 1100px;
   }
 
@@ -69,7 +68,7 @@ body {
 
 }
 
-  /* PCアンドタブレット */
+  /* PC＆タブレット */
 
 @media screen and (min-width: 768px) {
   .theme {
@@ -89,19 +88,18 @@ body {
 }
 
 
-      /* １１９９以下 */
+      /* タブレット＆スマホ */
 
+      /* タブレット＆スマホ */
 
-      /* １１９９以下 */
+      /* タブレット＆スマホ */
 
-      /* １１９９以下 */
+      /* タブレット＆スマホ */
 
-      /* １１９９以下 */
 
 @media screen and (max-width: 1199px) {
   .inner {
     width: 97%;
-    margin: 0 auto;
   }
 
   .cando {
@@ -140,7 +138,7 @@ body {
     margin: 0 auto 40px auto;
     max-width: 650px;
   }
-  
+
   .skills_content {
     margin-bottom: 88px;
   }
@@ -152,6 +150,7 @@ body {
 }
 
 
+/* スマホ */
 
 @media screen and (max-width: 767px) {
   .bolt-icon + div {
@@ -215,9 +214,12 @@ body {
 
 
 
-/* ////////////////////////////////////////////////////////// */
+/* メディアクエリ終了////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////// */
 
+.inner {
+  margin: 0 auto;
+}
 
 .header {
   background-color: #fff;
